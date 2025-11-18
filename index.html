@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Times Pokémon</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 40px; background-color: #f0f2f5; display: flex; justify-content: center; }
+        .container { width: 100%; max-width: 950px; }
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        thead tr { background-color: #34495e; color: #ffffff; text-align: left; }
+        th, td { padding: 15px 20px; border-bottom: 1px solid #eeeeee; vertical-align: middle; }
+        th { text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; }
+        tbody tr:last-child td { border-bottom: none; }
+        tbody tr:hover { background-color: #f8f9fa; }
+        .trainer { color: #e74c3c; font-weight: bold; width: 15%; font-size: 1.1em; }
+        .footer { text-align: center; margin-top: 20px; color: #7f8c8d; font-size: 0.9em; }
+
+        /* --- ESTILOS DAS IMAGENS --- */
+        .time-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: start;
+            align-items: flex-end;
+        }
+
+        .pokemon-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90px;
+            transition: transform 0.2s;
+        }
+
+        .pokemon-card:hover {
+            transform: scale(1.1);
+        }
+
+        .pokemon-card img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 5px;
+        }
+
+        .pokemon-card span {
+            font-size: 0.85em;
+            text-align: center;
+            color: #555;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 Time sorteado Geração 1</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Treinador</th>
+                    <th>Time Escolhido</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="trainer">Lucas</td>
+                    <td>
+                        <div class="time-container">
+                            <div class="pokemon-card"><img src="Charizard.jpeg" alt="Charizard"><span>Charizard</span></div>
+                            <div class="pokemon-card"><img src="Abra.png" alt="Abra"><span>Abra</span></div>
+                            <div class="pokemon-card"><img src="Machamp.jpeg" alt="Machamp"><span>Machamp</span></div>
+                            <div class="pokemon-card"><img src="Starmie.jpeg" alt="Starmie"><span>Starmie</span></div>
+                            <div class="pokemon-card"><img src="Muk.jpeg" alt="Muk"><span>Muk</span></div>
+                            <div class="pokemon-card"><img src="Beedrill.jpeg" alt="Beedrill"><span>Beedrill</span></div>
+                        </div>
+                    </td> 
+                </tr>
+
+                <tr>
+                    <td class="trainer">Rafa</td>
+                    <td>
+                        <div class="time-container">
+                            <div class="pokemon-card"><img src="Venusaur.jpeg" alt="Venusaur"><span>Venusaur</span></div>
+                            <div class="pokemon-card"><img src="Vileplume.jpeg" alt="Vileplume"><span>Vileplume</span></div>
+                            <div class="pokemon-card"><img src="Zubat.jpeg" alt="Zubat"><span>Zubat</span></div>
+                            <div class="pokemon-card"><img src="Kangaskhan.jpeg" alt="Kangaskhan"><span>Kangaskhan</span></div>
+                            <div class="pokemon-card"><img src="Aerodactyl.jpeg" alt="Aerodactyl"><span>Aerodactyl</span></div>
+                            <div class="pokemon-card"><img src="Lapras.jpeg" alt="Lapras"><span>Lapras</span></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="trainer">Gabriel</td>
+                    <td>
+                        <div class="time-container">
+                            <div class="pokemon-card"><img src="Blastoise.jpeg" alt="Blastoise"><span>Blastoise</span></div>
+                            <div class="pokemon-card"><img src="Farfetch´d.jpeg" alt="Farfetch´d"><span>Farfetch´d</span></div>
+                            <div class="pokemon-card"><img src="Rhydon.jpeg" alt="Rhydon"><span>Rhydon</span></div>
+                            <div class="pokemon-card"><img src="Ninetales.jpeg" alt="Ninetales"><span>Ninetales</span></div>
+                            <div class="pokemon-card"><img src="Omanyte.jpeg" alt="Omanyte"><span>Omanyte</span></div>
+                            <div class="pokemon-card"><img src="Gastly.jpeg" alt="Gastly"><span>Gastly</span></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="trainer">Pacu</td>
+                    <td>
+                        <div class="time-container">
+                            <div class="pokemon-card"><img src="Blastoise.jpeg" alt="Blastoise"><span>Blastoise</span></div>
+                            <div class="pokemon-card"><img src="Pikachu.jpeg" alt="Pikachu"><span>Pikachu</span></div>
+                            <div class="pokemon-card"><img src="Beedrill.jpeg" alt="Beedrill"><span>Beedrill</span></div>
+                            <div class="pokemon-card"><img src="Golem.jpeg" alt="Golem"><span>Golem</span></div>
+                            <div class="pokemon-card"><img src="Pikachu.jpeg" alt="Pikachu"><span>Pikachu</span></div>
+                            <div class="pokemon-card"><img src="Snorlax.jpeg" alt="Snorlax"><span>Snorlax</span></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="trainer">Tesch</td>
+                    <td>
+                        <div class="time-container">
+                            <div class="pokemon-card"><img src="Charizard.jpeg" alt="Charizard"><span>Charizard</span></div>
+                            <div class="pokemon-card"><img src="Pikachu.jpeg" alt="Pikachu"><span>Pikachu</span></div>
+                            <div class="pokemon-card"><img src="Jolteon.jpeg" alt="Jolteon"><span>Jolteon</span></div>
+                            <div class="pokemon-card"><img src="Arcanine.jpeg" alt="Arcanine"><span>Arcanine</span></div>
+                            <div class="pokemon-card"><img src="Pinsir.jpeg" alt="Pinsir"><span>Pinsir</span></div>
+                            <div class="pokemon-card"><img src="Kingler.jpeg" alt="Kingler"><span>Kingler</span></div>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="footer">
+            Lista oficial de times
+        </div>
+    </div>
+</body>
+</html>
